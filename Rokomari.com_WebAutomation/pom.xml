@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>Wifilife_WebAutomation</artifactId>
+  <artifactId>Rokomari.com_WebAutomation</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Wifilife_WebAutomation</name>
+  <name>Rokomari.com_WebAutomation</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -28,7 +28,23 @@
       <scope>test</scope>
     </dependency>
 
-  </dependencies>
+
+
+  <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+  <dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>1.0.2</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+  <dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.22.1</version>
+  </dependency>
+</dependencies>
+
+
   <build>
     <plugins>
       <plugin>
